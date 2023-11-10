@@ -2,7 +2,12 @@ import {InstructionsContainer} from '../fragments/Containers';
 import warning from '../images/warning.svg'
 
 function InsertPumpPage() {
-  const objInfo = {img: warning, imgAlt: 'warning', desc: 'Please Remove  Your Car.'}
+function descText() {
+    return (
+        <div>Please <br/><strong>Remove</strong> Your car.</div>
+    )
+    }
+  const objInfo = {img: warning, imgAlt: 'warning', desc: descText}
   return (
     <div>
         <InstructionsContainer {...objInfo}/>
