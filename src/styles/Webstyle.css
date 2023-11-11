@@ -18,6 +18,28 @@
     width: 100%;
   }
 
+  .box .activities5 {
+    height: 1080px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1926px;
+  }
+  .shops-text2 {
+     color: #262626;
+    font-family: "Inter", Helvetica;
+    font-size: 50px;
+    font-weight: 700;
+    left: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    width: 348px;
+    margin-bottom: 30%;
+  }
+
   .box .overlap-group {
     background-color: #f8f8f8;
     border: 3px solid;
@@ -271,6 +293,82 @@
     top: 40%;
     width: 358px;
   }
+  
+  .box .activities5 {
+    height: 1080px;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 1926px;
+  }
+  
+  .box .overlap-group5 {
+    background-color: #ffffff;
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+  }
+  
+  .box .shops-text2 {
+    color: #262626;
+    font-family: "Inter", Helvetica;
+    font-size: 60px;
+    font-weight: 700;
+    left: 83px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 79px;
+    width: 348px;
+  }
+  
+  .box .arrow5 {
+    height: 44px;
+    left: 1768px;
+    position: absolute;
+    top: 100px;
+    width: 63px;
+  }
+  
+  
+  
+  .box .div32 {
+    color: #262626;
+    font-family: "Inter", Helvetica;
+    font-size: 60px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 29px;
+    width: 348px;
+  }
+  
+  .box .rectangle32 {
+    background-color: #d9d9d9;
+    height: 168px;
+    left: 1179px;
+    position: absolute;
+    top: 49px;
+    width: 168px;
+  }
+  
+  .box .text-wrapper-555 {
+    color: #262626;
+    font-family: "Inter", Helvetica;
+    font-size: 30px;
+    font-weight: 400;
+    left: 98px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 133px;
+    width: 399px;
+  }
+
   
   .box .text-kwh {
     color: #262626;

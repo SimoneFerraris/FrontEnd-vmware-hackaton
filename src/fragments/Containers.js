@@ -17,5 +17,19 @@ function InstructionsContainer(objInfo) {
       );
 };
 
+function PoIContainer(objInfo) {
+  return (
+    <div>
+      <img className="arrow" alt="Arrow" src="https://c.animaapp.com/77QLtWUe/img/arrow-1.svg" />
+      <div className="overlap">
+        <div className="container" />
+        <div className="div">Name</div>
+        <div className="rectangle" />
+        <div className="text-wrapper-2">tags</div>
+      </div>
+    </div>
+  );
+};
 
-export {InstructionsContainer};
+
+export {InstructionsContainer, PoIContainer};
