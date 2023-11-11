@@ -20,13 +20,15 @@ function POIList({ pois }) {
   return (
     <div>
     <div className="shops-text2">Discover</div>
-    <div style={{borderRadius: '40%'}} onClick={() => handleClick('/charging')}><img
-           
-            style={{padding: '1%'}}
+    
+    <a style={{ textDecoration: 'none', display: 'inlineBlock', paddingTop:'30%', color: 'black'}}href="/charging" class="previous">
+        <img   
+            style={{width: '70px', height: '70px', padding: '1%'}}
             className="arrow"
             alt="Arrow"
             src="https://c.animaapp.com/77QLtWUe/img/arrow-1.svg"
-          /></div>
+          />
+    </a>
           
       <Box display="flex" flexDirection="column" alignItems="center"> {/* This centers the Card components vertically */}
           {console.log(pois)}
