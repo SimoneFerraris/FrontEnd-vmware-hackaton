@@ -14,7 +14,7 @@ function ChargingPage() {
         <div className="overlap">
           <div className="overlap-group">
             <div className="getting-bored">Getting bored?</div>
-              <div className="eat-container" />
+              <div className="container-gastronomy" />
                 <div className="text-gastronomy">Gastronomy</div>
                 <img
                   className="gastronomy-img"
@@ -30,7 +30,7 @@ function ChargingPage() {
               />
             </div>
             <div className="container-discover">
-              <div className="text-wrapper-4">Discover</div>
+              <div className="text-discover">Discover</div>
               <img
                 className="discover-img"
                 alt="Discover img"

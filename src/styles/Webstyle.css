@@ -24,24 +24,24 @@
     border-color: #000000;
     border-radius: 50px;
     box-shadow: 0px 4px 4px #00000040;
-    height: 553px;
+    height: 373px;
     left: 10%;
     position: absolute;
-    top: 350px;
+    top: 285px;
     width: 1200px;
   }
 
 
-  .box .eat-container {
+  .box .container-gastronomy {
     background-color: #f8f8f8;
     border: 3px solid;
     border-color: #000000;
     border-radius: 30px;
-    height: 120px;
-    left: 0;
+    height: 100px;
+    left: 5%;
     position: absolute;
-    top: 111px;
-    width: 562px;
+    top: 90px;
+    width: 502px;
   }
   
 
@@ -55,31 +55,31 @@
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 0;
+    top: 4%;
     width: 456px;
   }
   
   .box .text-gastronomy {
     color: #262626;
     font-family: "Inter", Helvetica;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
     left: 29px;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 148px;
+    top: 32%;
     white-space: nowrap;
     width: 359px;
   }
   
   .box .gastronomy-img {
-    height: 87px;
-    left: 641px;
+    height: 60px;
+    left: 481px;
     position: absolute;
-    top: 137px;
-    width: 87px;
+    top: 30%;
+    width: 60px;
   }
   
   .box .container-shops {
@@ -87,34 +87,34 @@
     border: 3px solid;
     border-color: #000000;
     border-radius: 30px;
-    height: 140px;
-    left: 906px;
+    height: 100px;
+    left: 55%;
     position: absolute;
-    top: 137px;
-    width: 762px;
+    top: 90px;
+    width: 502px;
   }
   
   .box .text-shops {
     color: #262626;
     font-family: "Inter", Helvetica;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
-    left: 22px;
+    left: -18%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 34px;
+    top: 32%;
     white-space: nowrap;
-    width: 189px;
+    width: 359px;
   }
   
   .box .shopping-img {
-    height: 88px;
-    left: 649px;
+    height: 60px;
+    left: 85%;
     position: absolute;
-    top: 23px;
-    width: 87px;
+    top: 15%;
+    width: 60;
   }
   
   .box .container-discover {
@@ -122,34 +122,36 @@
     border: 3px solid;
     border-color: #000000;
     border-radius: 30px;
-    height: 140px;
-    left: 48px;
+    height: 100px;
+    left: 5%;
     position: absolute;
-    top: 320px;
-    width: 762px;
+    top: 60%; 
+    width: 502px;
   }
   
-  .box .text-wrapper-4 {
+  .box .text-discover {
+    
     color: #262626;
     font-family: "Inter", Helvetica;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
-    left: 26px;
+    left: -14%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 33px;
+    top: 32%;
     white-space: nowrap;
-    width: 271px;
+    width: 359px;
   }
   
   .box .discover-img {
-    height: 88px;
-    left: 637px;
+    
+    height: 60px;
+    left: 82%;
     position: absolute;
-    top: 24px;
-    width: 88px;
+    top: 22%;
+    width: 60px;
   }
   
   .box .container-activities {
@@ -157,34 +159,35 @@
     border: 3px solid;
     border-color: #000000;
     border-radius: 30px;
-    height: 140px;
-    left: 906px;
+    height: 100px;
+    left: 55%;
     position: absolute;
-    top: 321px;
-    width: 762px;
+    top: 60%;
+    width: 502px;
   }
   
   .box .text-activities {
+    
     color: #262626;
     font-family: "Inter", Helvetica;
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 400;
-    left: 22px;
+    left: -12%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 32px;
+    top: 32%;
     white-space: nowrap;
-    width: 271px;
+    width: 359px;
   }
   
   .box .activities-img {
-    height: 88px;
-    left: 649px;
+    height: 60px;
+    left: 85%;
     position: absolute;
     top: 23px;
-    width: 88px;
+    width: 60px;
   }
   
   .box .container-charging {
