@@ -8,7 +8,7 @@ import "@fontsource/inter";
 function App() {
   return (
     <div>
-      <ChargingPage/>  
+      <ChargingPage/>
     </div>
   );
 }

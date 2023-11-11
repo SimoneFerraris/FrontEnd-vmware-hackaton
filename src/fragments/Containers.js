@@ -1,42 +1,20 @@
 import React from "react";
-import styles from '../styles/Webstyle.scss';
+import styles from '../styles/Webstyle.css';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
-/*
 
-import React from "react";
-import "./style.css";
-
-export const Box = () => {
-  return (
-    <div className="box">
-      <div className="plug-in">
-        <div className="overlap-group">
-          <div className="rectangle" />
-          <img className="istockphoto" alt="Istockphoto" src="istockphoto-1431371117-612x612-removebg-preview-1.png" />
-          <p className="car-detected-plug-in">
-            <span className="text-wrapper">
-              Car detected, <br />
-            </span>
-            <span className="span">Plug In</span>
-            <span className="text-wrapper"> the pump!</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  );
-};
-
-*/
 function InstructionsContainer(objInfo) {
     return (
-    <div className = {`containerInstructions ${styles.containerInstructions}`}>
-            <img style = {{width: "263px", height: "263px"}} src={objInfo.img} alt={objInfo.imgAlt}></img>
-        <div className = {`textInstructions ${styles.textInstructions}`}>
-            {objInfo.desc()}
+        <div className="box">
+          <div className="plug-in">
+            <div className="overlap">
+              <div className="rectangle" />
+              <img className="imageInstruction" alt={objInfo.imgAlt} src={objInfo.img} />
+              {objInfo.desc()}
+            </div>
+          </div>
         </div>
-    </div>
-    );
+      );
 };
 
 function ChargingContainer() {
