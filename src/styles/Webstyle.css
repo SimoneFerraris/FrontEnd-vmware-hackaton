@@ -43,6 +43,10 @@
     top: 90px;
     width: 502px;
   }
+
+  .box .container-gastronomy:hover {
+    background-color: #dbdbdb;
+  }
   
 
   .box .getting-bored {
@@ -64,7 +68,7 @@
     font-family: "Inter", Helvetica;
     font-size: 40px;
     font-weight: 400;
-    left: 29px;
+    left: -9%;
     letter-spacing: 0;
     line-height: normal;
     position: absolute;
@@ -76,9 +80,9 @@
   
   .box .gastronomy-img {
     height: 60px;
-    left: 481px;
+    left: 82%;
     position: absolute;
-    top: 30%;
+    top: 24%;
     width: 60px;
   }
   
@@ -94,6 +98,10 @@
     width: 502px;
   }
   
+  .box .container-shops:hover {
+    background-color: #dbdbdb;
+  }
+
   .box .text-shops {
     color: #262626;
     font-family: "Inter", Helvetica;
@@ -127,6 +135,10 @@
     position: absolute;
     top: 60%; 
     width: 502px;
+  }
+
+  .box .container-discover:hover {
+    background-color: #dbdbdb;
   }
   
   .box .text-discover {
@@ -165,6 +177,10 @@
     top: 60%;
     width: 502px;
   }
+
+  .box .container-activities:hover {
+    background-color: #dbdbdb;
+  }
   
   .box .text-activities {
     
@@ -202,9 +218,7 @@
     top: 30px;
     width: 1200px;
   }
-  
-  
-  
+    
   .box .img-help {
     height: 220px;
     left: 83%;

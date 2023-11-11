@@ -5,22 +5,38 @@ import discover from "../images/discoverImg.png"
 import activities from "../images/activitiesImg.svg"
 import carBattery from "../util/carBattery.json"
 import Lottie from "lottie-react";
+import { useNavigate } from "react-router-dom";
+import { useState } from 'react';
 
 function ChargingPage() {
+  
+  const navigate = useNavigate();
+  // Define a function to get the style based on the active div
+ 
+  
+  const handleClick = (path) => {
+    navigate(path);
+  };
+
   return (
     <div className="box">
       <div className="main">
         <div className="overlap">
           <div className="overlap-group">
             <div className="getting-bored">Getting bored?</div>
-              <div className="container-gastronomy" />
+              <div className="container-gastronomy"  
+              onClick={() => handleClick('/gastronomy')}>
+            
                 <div className="text-gastronomy">Gastronomy</div>
                 <img
                   className="gastronomy-img"
                   alt="Gastronomy img"
                   src={gastronomy}
                 />
-            <div className="container-shops">
+                </div>
+            <div className="container-shops"
+              onClick={() => handleClick('/shops')}
+            >
               <div className="text-shops">Shops</div>
               <img
                 className="shopping-img"
@@ -28,7 +44,10 @@ function ChargingPage() {
                 src={shopping}
               />
             </div>
-            <div className="container-discover">
+            <div className="container-discover"
+              onClick={() => handleClick('/discover')}
+              
+            >
               <div className="text-discover">Discover</div>
               <img
                 className="discover-img"
@@ -36,7 +55,9 @@ function ChargingPage() {
                 src={discover}
               />
             </div>
-            <div className="container-activities">
+            <div className="container-activities" onClick={() => handleClick('/activities')}
+              
+            >
               <div className="text-activities">Activities</div>
               <img
                 className="activities-img"
@@ -46,7 +67,7 @@ function ChargingPage() {
             </div>
           </div>
           <div className="container-charging">
-                <img className="img-help" alt="help" src={help} />
+                <img  onClick={() => handleClick('/help')} className="img-help" alt="help" src={help} />
               <Lottie className="carbattery" animationData={carBattery} loop={true} />            
               <div className="text-h-left">00:13:00 h left</div>
               <div className="text-car-power">Power: 6.0 kWh</div>
