@@ -203,24 +203,16 @@
     width: 1200px;
   }
   
-  .box .container-help {
-    height: 229px;
-    left: 752px;
-    position: absolute;
-    top: 25px;
-    width: 964px;
-  }
   
   
   .box .img-help {
     height: 220px;
-    left: 25%;
+    left: 83%;
     position: absolute;
-    top: -15%;
+    top: -3%;
     width: 220px;
   }
   
-
   .box .rectangle-help {
     border: 6px solid;
     border-color: #323232;
@@ -234,9 +226,9 @@
   
   .box .carbattery {
     height: auto;
-    left: -10%;
+    left: 55%;
     position: absolute;
-    top: 0%;
+    top: 10%;
     width: 400px;
   }
   
@@ -245,11 +237,11 @@
     font-family: "Inter", Helvetica;
     font-size: 25px;
     font-weight: 400;
-    left: -40%;
+    left: 30%;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 5%;
+    top: 15%;
     width: 358px;
   }
   
@@ -258,11 +250,11 @@
     font-family: "Inter", Helvetica;
     font-size: 25px;
     font-weight: 400;
-    left: -40%;
+    left: 30%;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 30%;
+    top: 40%;
     width: 358px;
   }
   
@@ -271,11 +263,11 @@
     font-family: "Inter", Helvetica;
     font-size: 25px;
     font-weight: 400;
-    left: -40%;
+    left: 30%;
     line-height: normal;
     position: absolute;
     text-align: center;
-    top: 55%;
+    top: 70%;
     width: 358px;
   }
   
