@@ -6,7 +6,6 @@ import activities from "../images/activitiesImg.svg"
 import carBattery from "../util/carBattery.json"
 import Lottie from "lottie-react";
 import { useNavigate } from "react-router-dom";
-import { useState } from 'react';
 
 function ChargingPage() {
   
@@ -67,7 +66,7 @@ function ChargingPage() {
             </div>
           </div>
           <div className="container-charging">
-                <img  onClick={() => handleClick('/help')} className="img-help" alt="help" src={help} />
+               
               <Lottie className="carbattery" animationData={carBattery} loop={true} />            
               <div className="text-h-left">00:13:00 h left</div>
               <div className="text-car-power">Power: 6.0 kWh</div>
